@@ -25,3 +25,20 @@ export path=(
   "/usr/sbin"
   "/sbin"
 )
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+
+export PATH="$HOME/go/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin
+export GOROOT=/usr/local/Cellar/go/1.15/libexec
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOROOT:$GOPATH:$GOBIN
+##
+export ANDROID_HOME=/Users/joseluis/Library/Android/sdk
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
