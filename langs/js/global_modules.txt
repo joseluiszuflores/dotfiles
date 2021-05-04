@@ -1,0 +1,12 @@
+/Users/joseluis/.nvm/versions/node/v10.0.0/lib/node_modules:
+ expo-cli
+
+/Users/joseluis/.nvm/versions/node/v10.13.0/lib/node_modules:
+expo-cli
+react-native
+
+/Users/joseluis/.nvm/versions/node/v12.18.3/lib/node_modules:
+@angular
+expo-cli
+mjml
+yarn

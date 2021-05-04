@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+## brew
+brew bundle dump --file="$HOMEBREW_BUNDLE_FILE_PATH" --force
+
+#apt
+apt list --installed > apt-installed.txt
+
+## pip python
+
+pip freeze >"$DOTFILES_PATH/langs/python/requirements.txt"
+
+## npm
+
+ls -1 $HOME/.nvm/versions/node/v*/lib/node_modules | grep -v npm >"$DOTFILES_PATH/langs/js/global_modules.txt"
