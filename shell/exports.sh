@@ -42,3 +42,5 @@ export PATH=$PATH:$GOROOT:$GOPATH:$GOBIN
 export ANDROID_HOME=/Users/joseluis/Library/Android/sdk
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/tools:$PATH
+
+export NAVI_PATH=/Users/joseluis/.dotfiles/doc/navi

@@ -1,0 +1,15 @@
+[user]
+	email = jose.luis.zuniga_nef@hotmail.com
+	name = joseluis
+	signingKey = ""
+
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+
+
+[gpg]
+	program = gpg
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false

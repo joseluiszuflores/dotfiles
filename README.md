@@ -51,3 +51,11 @@
 * Install your dotfiles `DOTFILES_PATH="$HOME/.dotfiles" DOTLY_PATH="$DOTFILES_PATH/modules/dotly" "$DOTLY_PATH/bin/dot" self install`
 * Restart your terminal
 * Import your packages `dot package import`
+
+
+
+
+## Navi
+
+https://github.com/denisidoro/navi
+

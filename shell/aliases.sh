@@ -28,13 +28,22 @@ alias o.='open .'
 alias up='dot package update_all'
 
 alias color='bash -c  "$(wget -qO- https://git.io/vQgMr)"'
-alias l='exa -hbG --icons --color=automatic'
-alias ll='exa -lahbrG@ --icons --color=automatic'
-alias ls='exa --icons --color=automatic'
+alias l='exa -hbG  --color=automatic'
+alias ll='exa -lahbrG@  --color=automatic'
+alias ls='exa  --color=automatic'
 alias llm='exa -lbGd --sort=modified'
-alias la='exa -albigmhHS --icons --color=automatic'
-alias lx='exa -albigmhrHS --icons --color=automatic'
+alias la='exa -albigmhHS  --color=automatic'
+alias lx='exa -albigmhrHS  --color=automatic'
 
 # Specialty Views
-alias lS='exa -1 --icons --color=automatic'
+alias lS='exa -1 --icon --color=automatic'
 alias lt='exa --tree --level=2'
+
+alias fuck='sudo !!'
+
+alias cerp='cd $HOME/erp'
+
+alias cvitay='cd $HOME/go/src/bitbucket.org/vitay_team'
+
+
+alias ping='prettyping --nolegend'
