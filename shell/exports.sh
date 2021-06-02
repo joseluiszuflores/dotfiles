@@ -26,7 +26,7 @@ export path=(
   "/sbin"
 )
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+#source $(brew --prefix nvm)/nvm.sh
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
