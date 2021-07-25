@@ -1,0 +1,11 @@
+% erp kore
+
+# Open backends kore erp
+
+goland $HOME/erp/<backend>
+
+$ backend: ls $HOME/erp | grep kore_
+
+# Open frontend kore erp
+
+idea cerp/kore_aplicaciones_frontend

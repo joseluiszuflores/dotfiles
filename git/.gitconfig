@@ -5,8 +5,10 @@
 
 [url "git@bitbucket.org:"]
 	insteadOf = https://bitbucket.org/
-
-
+[alias]
+    st = status
+    reset-permissions = !git diff -p -R --no-color | grep -E \"^(diff|(old|new) mode)\" --color=newer | git apply # reset chmod modified
+    c = !git add -A && git commit
 [gpg]
 	program = gpg
 [commit]

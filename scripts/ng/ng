@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Load source node and npm
+#?? 1.0.0
+##?
+##? Usage:
+##?   ng
+docs::parse "$@"
+
+
+source $(brew --prefix nvm)/nvm.sh

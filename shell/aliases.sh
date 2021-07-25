@@ -47,3 +47,7 @@ alias cvitay='cd $HOME/go/src/bitbucket.org/vitay_team'
 
 
 alias ping='prettyping --nolegend'
+
+alias exportNode='source $(brew --prefix nvm)/nvm.sh'
+
+alias koreBuild='sh bo.sh build --prod --aot --build-optimizer'
